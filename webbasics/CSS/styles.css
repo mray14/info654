@@ -1,0 +1,20 @@
+
+
+
+body {background-color: rgb(208, 197, 164);
+}
+#header,#footer {width: 100%; text-align: center;border-radius:5px; }
+#header {
+    background:rgb(153, 157, 191); color:rgb(29, 20, 20); border-bottom:5px solid rgb(57, 54, 80);
+}
+
+p {
+    color: blue;
+    text-decoration: underline;
+}
+.greenparagraph {
+    color: green;
+}
+#footer {
+    clear:left ; background:rgb(223, 187, 193);color:rgb(57, 54, 80);border-bottom:5px solid rgb(85, 59, 63);
+}

@@ -1,0 +1,53 @@
+
+
+
+body {background-color: rgb(208, 197, 164); display: flex; flex-direction:column; min-height:100vh;
+}
+#header {
+    background: rgb(153, 157, 191); color:rgb(29, 20, 20); 
+    border-bottom:3px solid rgb(57, 54, 80);
+    margin-top: 0px;
+    padding: 10px 5px
+}
+#footer {
+    width: 100%;
+    text-align: center;
+    border-radius:5px;
+    background-color: #333;
+    color: white;
+    padding: 1px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    clear:left ; background:rgb(223, 187, 193);color:rgb(57, 54, 80);border-bottom:5px solid rgb(85, 59, 63);
+    }      
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 15px 0; 
+    border-top: 2px solid #ddd;
+  }
+  .tab {
+    padding: 20px 30px;
+    margin: 0 15px;
+    background-color: #ddf5ec;
+    border: 1px solid #ccc;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    border-radius: 10px;
+    font-size: 18px; 
+    transition: background-color 0.3s;
+  }
+  .tab:hover {
+    background-color: #dfb0b0;
+  }
+  .tab.active {
+    background-color: rgb(208, 197, 164);
+    color: purple;
+    border-bottom: none;
+  }
+p {
+    color: rgb(23, 9, 27);
+}
